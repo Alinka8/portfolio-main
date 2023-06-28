@@ -8,6 +8,7 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import Resume from "./../Homepage/AnisaResume.pdf";
 
 function Home() {
   return (
@@ -39,21 +40,16 @@ function Home() {
             </button>
             */}
           </Col>
-          <Col md={5}>
+          <Col md={5} className="right-side">
             <div className="imagedeveloper"></div>
           </Col>
         </Row>
         <div>
-          <Button
-            onClick={() => {
-              window.open(
-                "https://drive.google.com/drive/my-drive?q=type:document"
-              );
-            }}
-            className="resumebtn"
-          >
-            <span>Download Resume</span>
-          </Button>
+          <a href={Resume} download>
+            <Button className="resumebtn">
+              <span>Download Resume</span>
+            </Button>
+          </a>
         </div>
       </Container>
     </div>
