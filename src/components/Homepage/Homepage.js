@@ -20,7 +20,16 @@ function Home() {
               Hi! I am Anisa <span className="wave"> </span>
             </h2>
             <span></span>
-            <Text />
+            <div className="left-side">
+              <Text />
+              <div>
+                <a href={Resume} download>
+                  <Button className="resumebtn">
+                    <span>Download Resume</span>
+                  </Button>
+                </a>
+              </div>
+            </div>
             {/* Uncomment the social media buttons code
             <button
               onClick={() => {
@@ -44,13 +53,6 @@ function Home() {
             <div className="imagedeveloper"></div>
           </Col>
         </Row>
-        <div>
-          <a href={Resume} download>
-            <Button className="resumebtn">
-              <span>Download Resume</span>
-            </Button>
-          </a>
-        </div>
       </Container>
     </div>
   );

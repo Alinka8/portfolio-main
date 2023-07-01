@@ -4,7 +4,7 @@
 
 .navbar {
   width: 100%;
-  height: 88px;
+  height: 69px;
   background-color: transparent;
   position: fixed !important;
   transition: all 0.3s ease-out 0s !important;
@@ -70,10 +70,10 @@
   opacity: 0.9 !important;
 }
 .logo {
-  background-image: url(../Assets/logo1.png);
   background-size: cover;
-  width: 160px;
-  height: 80px;
+  width: 100px;
+  height: 52px;
+  margin-left: 20px;
 }
 
 .nav-link {
@@ -98,7 +98,21 @@
   border: none;
 }
 
-@media (max-width: 767px) {
+.resumebtn {
+  display: block;
+  margin-left: 70px;
+  font-size: 20px;
+  margin-left: 100px;
+  /* margin: 100px auto; */
+  /* margin-top: -790px; */
+}
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 767px) {
   .navbar {
     padding: 1rem 0rem !important;
     background-color: transparent !important;
@@ -108,7 +122,7 @@
   }
   .responsive-navbar {
     width: 100%;
-    height: 250px;
+    height: 200px;
     border-radius: 10px;
     background-color: #4158d0;
     background-image: linear-gradient(
@@ -149,6 +163,7 @@
 .row {
   padding-top: 2px;
   margin-left: -39px;
+  font-weight: bold;
 }
 
 .wave {
@@ -200,7 +215,7 @@
 .headtext {
   padding-top: 200px;
   font-size: 3.4em !important;
-  color: #ffffff !important;
+  color: #7f087a !important;
   font-weight: 600 !important;
   letter-spacing: 1px !important;
   margin-left: 100px;
@@ -210,11 +225,6 @@
   color: #191919 !important;
   font-weight: 600 !important;
   letter-spacing: 1px !important;
-}
-.resumebtn {
-  margin-left: 70px;
-  font-size: 20px;
-  margin-top: -790px;
 }
 
 .right-side {
@@ -246,7 +256,7 @@
   font-size: 30px;
 }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .homepagebackground {
     width: 100%;
     height: 100%;
@@ -256,14 +266,14 @@
   }
 
   .Typewriter__wrapper {
-    font-size: 1.9em !important;
+    font-size: 1.8em !important;
   }
   .Typewriter__cursor {
     font-size: 2.2em !important;
   }
   .headtext {
     padding-top: 100px;
-    font-size: 2em !important;
+    font-size: 1.8em !important;
   }
   .nametext {
     font-size: 2.4em !important;
@@ -301,10 +311,13 @@
   border-radius: 15px;
   box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
     rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px !important;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 15px;
 }
 .aboutmetext {
   font-size: 2em !important;
-  color: #191919 !important;
+  color: #7f087a !important;
   font-weight: 600 !important;
   letter-spacing: 1px !important;
 }
@@ -314,6 +327,13 @@
   color: #fff;
   animation: vibrate 30ms linear infinite forwards;
 }
+h3 {
+  color: #7f087a;
+}
+/* p{
+  color: #fff;;
+} */
+
 @keyframes vibrate {
   0% {
     transform: translateX(-1px) translateY(1px);
@@ -341,13 +361,13 @@
   color: #e8e8e8;
 }
 .webimage {
-  max-width: 500px;
-  height: 730px;
-  background-image: url(../Assets/hero1.png);
+  max-width: 409px;
+  height: 627px;
+  background-image: url(../Assets/hero3.png);
   background-size: cover;
   background-position: center;
 }
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .aboutpagebackground {
     width: 100%;
     height: 100%;
@@ -373,10 +393,10 @@
 }
 .project-section {
   position: relative !important;
-  padding-top: 10px !important;
+  padding-top: 30px !important;
 }
 .project-card {
-  padding-top: 20px;
+  padding-top: 50px;
   padding-bottom: 50px !important;
   padding-left: 25px !important;
   padding-right: 25px !important;
@@ -407,6 +427,8 @@
   padding: 20px !important;
   opacity: 0.8 !important;
   border-radius: 10px !important;
+  height: 100%;
+  object-fit: cover;
 }
 .viewbtn {
   display: flex;
@@ -416,11 +438,15 @@
   letter-spacing: 1px;
   font-family: "Poppins";
 }
+.card-title {
+  color: #7f087a;
+  font-weight: bold;
+}
 
 .btn-primary {
-  color: #ffffff !important;
+  color: #fff !important;
   background-color: transparent !important;
-  border-color: #191919 !important;
+  border-color: #fff !important;
 }
 
 .btn-primary:hover {
@@ -432,8 +458,17 @@
   outline: none !important;
   box-shadow: none !important;
 }
+.figma-container {
+  display: flex;
+  margin: 0 auto;
+  width: 80%;
+}
 
-@media (max-width: 767px) {
+.col {
+  flex: 0;
+}
+
+@media screen and (max-width: 767px) {
   .project-section {
     padding-top: 40px !important;
   }
@@ -459,6 +494,7 @@
   font-size: 3.2rem;
   font-weight: 800;
   letter-spacing: 1px;
+  color: #7f087a;
 }
 .contactpara {
   padding-top: 1rem;
@@ -476,6 +512,7 @@
   border: solid 2px;
   background-color: transparent;
   letter-spacing: 2px;
+  color: #fff;
 }
 .contactbtn:hover {
   background-color: rgba(51, 51, 51, 0.2);
@@ -493,7 +530,7 @@
   font-weight: 700;
   letter-spacing: 1px;
 }
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .contactpara br {
     display: none;
   }

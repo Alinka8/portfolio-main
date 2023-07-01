@@ -4,6 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { Link, NavLink } from "react-router-dom";
 import "../../pages/style.css";
+import logo from "../../Assets/logo1.png";
 
 function Header() {
   const [expand, updateExpanded] = useState(false);
@@ -27,7 +28,7 @@ function Header() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Navbar.Brand className="logotext" as={Link} to="/">
-        <div className="logo"></div>
+        <img src={logo} className="logo" />
       </Navbar.Brand>
 
       <Navbar.Toggle

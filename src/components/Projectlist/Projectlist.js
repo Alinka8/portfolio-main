@@ -58,24 +58,26 @@ function Projectlist() {
                 ghLink="https://todolist-rahul81.netlify.app/"
               />
             </Col>
-            <Col>
-              <iframe
-                style={{ border: "1px solid rgba(0, 0, 0, 0.1)" }}
-                width="400"
-                height="450"
-                src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FTL4ZW14DDKjvK8ozSb7A4s%2FDEALERSHIP%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D5-20557%26viewport%3D543%252C361%252C0.33%26scaling%3Dscale-down%26starting-point-node-id%3D5%253A20557%26mode%3Ddesign"
-                allowfullscreen
-              ></iframe>
-            </Col>
-            <Col>
-              <iframe
-                style={{ border: "1px solid rgba(0, 0, 0, 0.1)" }}
-                width="400"
-                height="450"
-                src="https://www.figma.com/proto/qHknjzb641DWUzx5jh6T58/SpyGame?embed_host=share&kind=&node-id=2-2&page-id=0%3A1&scaling=scale-down"
-                allowfullscreen
-              ></iframe>
-            </Col>
+            <div className="figma-container">
+              <Col>
+                <iframe
+                  style={{ border: "1px solid rgba(0, 0, 0, 0.1)" }}
+                  width="400"
+                  height="450"
+                  src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FTL4ZW14DDKjvK8ozSb7A4s%2FDEALERSHIP%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D5-20557%26viewport%3D543%252C361%252C0.33%26scaling%3Dscale-down%26starting-point-node-id%3D5%253A20557%26mode%3Ddesign"
+                  allowfullscreen
+                ></iframe>
+              </Col>
+              <Col>
+                <iframe
+                  style={{ border: "1px solid rgba(0, 0, 0, 0.1)" }}
+                  width="400"
+                  height="450"
+                  src="https://www.figma.com/proto/qHknjzb641DWUzx5jh6T58/SpyGame?embed_host=share&kind=&node-id=2-2&page-id=0%3A1&scaling=scale-down"
+                  allowfullscreen
+                ></iframe>
+              </Col>
+            </div>
           </Row>
         </Container>
       </Container>

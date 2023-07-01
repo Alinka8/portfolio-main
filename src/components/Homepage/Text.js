@@ -6,10 +6,11 @@ function Text() {
   return (
     <Typewriter
       options={{
-        strings: ["React Developer", "Front End Developer"],
+        strings: ["React Developer", "Front End Dev"],
         autoStart: true,
         loop: true,
         deleteSpeed: 50,
+        
       }}
     />
   );
