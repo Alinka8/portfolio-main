@@ -5,7 +5,6 @@ import Preloader from "../src/components/Pre";
 import Home from "./pages/Home.js";
 import About from "./pages/About";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
 import Project from "./pages/Project";
 import Contact from "./pages/Contact";
 
@@ -32,12 +31,12 @@ function App() {
     };
   }, []);
 
-  const variants = {
-    default: {
-      x: mousePosition.x - 16,
-      y: mousePosition.y - 16,
-    },
-  };
+  // const variants = {
+  //   default: {
+  //     x: mousePosition.x - 16,
+  //     y: mousePosition.y - 16,
+  //   },
+  // };
 
   useEffect(() => {
     const timer = setTimeout(() => {

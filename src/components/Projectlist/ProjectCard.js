@@ -2,8 +2,6 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 
-
-
 function ProjectCard(props) {
   return (
     <Card className="project-card-view">
@@ -13,12 +11,16 @@ function ProjectCard(props) {
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>
-        <Button className="viewbtn" variant="primary" href={props.ghLink} target="_blank">
+        <Button
+          className="viewbtn"
+          variant="primary"
+          href={props.ghLink}
+          target="_blank"
+        >
           View
         </Button>
         {"\n"}
         {"\n"}
-
 
         {!props.isBlog && props.demoLink && (
           <Button
@@ -27,7 +29,6 @@ function ProjectCard(props) {
             target="_blank"
             style={{ marginLeft: "10px" }}
           >
-
             {"Demo"}
           </Button>
         )}

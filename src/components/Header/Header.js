@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Button } from "react-bootstrap";
+
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { Link, NavLink } from "react-router-dom";
@@ -82,17 +82,6 @@ function Header() {
               Contact
             </NavLink>
           </Nav.Item>
-
-          {/* <Button
-            onClick={() => {
-              window.open(
-                "https://drive.google.com/file/d/1zbrcyEPX5vpSL0JVXJb7x8CUZu089nYK/view?usp=sharing"
-              );
-            }}
-            className="resumebtn"
-          >
-            <span>Resume</span>
-          </Button> */}
         </Nav>
       </Navbar.Collapse>
     </Navbar>
