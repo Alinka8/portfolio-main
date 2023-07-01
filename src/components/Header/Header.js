@@ -28,7 +28,7 @@ function Header() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Navbar.Brand className="logotext" as={Link} to="/">
-        <img src={logo} className="logo" />
+        <img src={logo} className="logo" alt="logo" />
       </Navbar.Brand>
 
       <Navbar.Toggle
