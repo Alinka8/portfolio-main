@@ -5,7 +5,7 @@ import Preloader from "../src/components/Pre";
 import Home from "./pages/Home.js";
 import About from "./pages/About";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { motion } from "framer-motion";
+
 import Project from "./pages/Project";
 import Contact from "./pages/Contact";
 
@@ -49,11 +49,6 @@ function App() {
 
   return (
     <div className="App">
-      {/* <motion.div
-        className="cursor"
-        variants={variants}
-        animate="default"
-      /> */}
       <Router>
         <Preloader load={load} />
         <div className="App" id={load ? "no-scroll" : "scroll"}>

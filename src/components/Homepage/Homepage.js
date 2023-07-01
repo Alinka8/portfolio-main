@@ -30,24 +30,6 @@ function Home() {
                 </a>
               </div>
             </div>
-            {/* Uncomment the social media buttons code
-            <button
-              onClick={() => {
-                window.open("https://github.com/rahulvijay81");
-              }}
-              className="socailmediabtn"
-            >
-              <AiFillGithub className="icon" />
-            </button>
-            <button
-              onClick={() => {
-                window.open("https://www.linkedin.com/in/rahulvijay81/");
-              }}
-              className="socailmediabtn"
-            >
-              <FaLinkedinIn className="icon" />
-            </button>
-            */}
           </Col>
           <Col md={5} className="right-side">
             <div className="imagedeveloper"></div>
@@ -59,11 +41,3 @@ function Home() {
 }
 
 export default Home;
-// padding: 12px 32px;
-//   font-size: 1rem;
-//   text-transform: uppercase;
-//   background: rgb(248, 217, 15);
-//   color: #222;
-//   border: 1px solid #fff;
-//   font-weight: 600;
-//   cursor: pointer;
