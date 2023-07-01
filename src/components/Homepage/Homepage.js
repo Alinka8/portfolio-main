@@ -2,12 +2,6 @@ import React from "react";
 import "../../pages/style.css";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import Text from "../Homepage/Text";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
 import Resume from "./../Homepage/AnisaResume.pdf";
 
 function Home() {
