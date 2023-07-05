@@ -2,7 +2,7 @@ import React from "react";
 import "../../pages/style.css";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import Text from "../Homepage/Text";
-import Resume from "./../Homepage/AnisaResume.pdf";
+import Resume from "./../Homepage/Anisa_Zh.pdf";
 import image from "../../Assets/me.png";
 
 function Home() {
